@@ -1,0 +1,52 @@
+*{
+    /* margin:0;
+    padding: 0; */
+}
+.p-1{
+    padding: 1em;
+}
+.ml-10{
+    margin-left: 10px;
+}
+
+.mx-auto{
+    margin: 0 auto;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.overflow-hidden{
+    overflow: hidden;
+}
+
+button{
+    height: 35px;
+    width: 60px;
+}
+
+.container{
+    background-color: bisque;
+    width: 300px;
+}
+
+.note{
+    width: 175px;
+    height: 20px;
+    background-color: gray;
+    padding: 5px;
+    text-align:justify;
+}
