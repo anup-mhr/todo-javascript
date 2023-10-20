@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,30 +8,31 @@
     <title>TODO</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div id="main" class="container d-flex flex-column justify-center align-center mx-auto p-1">
-        <h2>TO-DO</h2>
-        <div class="row d-flex">
-            <input type="text" id="newNote">
-            <button type="submit" id="add" class="ml-10">Add</button>
+    <div class="todo">
+        <header>
+            <div class="profile">
+                <img src="images/37810-A Anup Maharjan.jpg" alt="profile pic">
+                <div class="profile-info">
+                    <h4 class="name">Anup Maharjan</h4>
+                    <p class="email">anupmhrzn16@gmail.com</p>
+                </div>
+            </div>
+            <p class="task-btn" onclick="">+ New task</p>
+        </header>
+        <form action="" class="hidden task-form">
+            <input type="text" id="task-title" placeholder="Title">
+            <input type="text" name="" id="task-desc" placeholder="Description">
+            <p onclick="addTask()">Add Task</p>
+        </form>
+
+        <div class="task-container">
+           
         </div>
-        <!-- <div class="row d-flex align-center">
-            <p class="note overflow-hidden">this is the njkjhk hd ssdhsud sd s  uy  es</p>
-            <button id="edit" class="ml-10">Edit</button>
-            <button id="delete" class="ml-10">Delete</button>
-        </div>
-        <div class="row d-flex align-center">
-            <p class="note overflow-hidden">this is the njkjhk hd ssdhsud sd s  uy  es</p>
-            <button id="edit" class="ml-10">Edit</button>
-            <button id="delete" class="ml-10">Delete</button>
-        </div>
-        <div class="row d-flex align-center">
-            <p class="note overflow-hidden">this is the njkjhk hd ssdhsud sd s  uy  es</p>
-            <button id="edit" class="ml-10">Edit</button>
-            <button id="delete" class="ml-10">Delete</button>
-        </div> -->
     </div>
 
     <script src="script.js"></script>
 </body>
+
 </html>
